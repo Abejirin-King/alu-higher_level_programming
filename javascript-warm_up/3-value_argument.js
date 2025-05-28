@@ -1,6 +1,7 @@
 #!/usr/bin/node
 
-const firstArg = process.argv.slice(2).shift();
+const args = process.argv.slice(2);
+const firstArg = args[0];
 
 if (firstArg) {
   console.log(firstArg);
